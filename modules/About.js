@@ -1,9 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Jumbotron from './Jumbotron'
+// import Jumbotron from './Jumbotron'
 
 export default React.createClass({
-
   render() {
     return (
     	<div>

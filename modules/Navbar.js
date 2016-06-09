@@ -40,7 +40,7 @@ export default React.createClass({
           <div id="navbar" className="navbar-collapse collapse">
             <ul className="nav navbar-nav">
               <li className={homeActive}><a onClick={this.props.homeClick} href="#">Home</a></li>
-              <li className={aboutActive}><a onClick={this.props.aboutClick} href="#">About</a></li>
+              <li className={aboutActive}><a onClick={this.props.aboutClick} href="#/about">About</a></li>
             </ul>
           </div>
         </div>
